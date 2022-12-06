@@ -5,21 +5,56 @@ public class Sunflower {
     public static void drawCenter(Graphics g)
     {
         g.setColor(new Color(123,61,4));
-        g.fillOval(750,375,25,25);
+        g.fillOval(737,350,25,25);
 
     }
     public static void drawPetals(Graphics g)
     {
         g.setColor(new Color(228,211,1));
-        g.fillArc(750,325,25,25,0,180);
+        Polygon petal1 = new Polygon();
+        petal1.addPoint(750,350);
+        petal1.addPoint(770,300);
+        petal1.addPoint(750,275);
+        petal1.addPoint(730,300);
+        petal1.addPoint(750,350);
+        g.fillPolygon(petal1);
+
+        Polygon petal2 = new Polygon();
+        petal2.addPoint(750,375);
+        petal2.addPoint(770,425);
+        petal2.addPoint(750,450);
+        petal2.addPoint(730, 425);
+        petal2.addPoint(750,375);
+        g.fillPolygon(petal2);
+
+        Polygon petal3 = new Polygon();
+        petal3.addPoint(735,360);
+        petal3.addPoint(685,340);
+        petal3.addPoint(660,360);
+        petal3.addPoint(685, 380);
+        petal3.addPoint(735,360);
+        g.fillPolygon(petal3);
+
+        Polygon petal4 = new Polygon();
+        petal4.addPoint(735,360);
+        petal4.addPoint(685,340);
+        petal4.addPoint(660,360);
+        petal4.addPoint(685, 380);
+        petal4.addPoint(735,360);
+        g.fillPolygon(petal4);
+
+
 
     }
     public static void drawStem(Graphics g)
     {
+        g.setColor(new Color(31,122,16));
+
 
     }
     public static void drawLeaves(Graphics g)
     {
+        g.setColor(new Color(103,122,12));
 
     }
 }

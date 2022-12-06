@@ -21,10 +21,11 @@ public class Sun {
         g.drawLine(150,90,150,15);
 
     }
-    public static void drawSmile(Graphics g)
+    public static void drawFace(Graphics g)
     {
-        g.setColor();
-        g.drawOval(125,100,15,15);
-
+        g.setColor(Color.black);
+        g.fillOval(125,125,15,15);
+        g.fillOval(175,125,15,15);
+        g.fillArc(135,150,50,25,180,180);
     }
 }
