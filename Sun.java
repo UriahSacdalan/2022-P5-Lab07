@@ -27,5 +27,8 @@ public class Sun {
         g.fillOval(125,125,15,15);
         g.fillOval(175,125,15,15);
         g.fillArc(135,150,50,25,180,180);
+        g.setColor(Color.white);
+        g.fillOval(125,125,5,5);
+        g.fillOval(175,125,5,5);
     }
 }
