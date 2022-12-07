@@ -14,8 +14,8 @@ public class FlowerField extends Applet{
         Sun.drawFace(g);
 
         Sunflower.drawCenter(g);
-        Sunflower.drawPetals(g);
         Sunflower.drawStem(g);
+        Sunflower.drawPetals(g);
         Sunflower.drawLeaves(g);
     }
 }
