@@ -2,7 +2,7 @@ import java.awt.*;
 import java.applet.*;
 
 //The class that draws my project
-public class FlowerField extends Applet{
+public class FieldWithAFlower extends Applet{
     public void paint(Graphics g)
     {
         //Plan out project before starting
